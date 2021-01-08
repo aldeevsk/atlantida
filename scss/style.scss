@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'grid';
+@import 'fonts';
+@import 'header';
+@import 'home';
+@import 'about';
+@import 'services';
+
+body {
+    font-family: 'Conv_CrimsonText-Regular', serif;
+    font-size: 14px;
+    color: $tc-grey;
+    background: $bc-grey;
+}
+
+h1 {
+    font-family: 'Amsdam Regular', sans-serif;
+    font-size: 35,63px;
+    color: $tc-white;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Amsdam Regular', sans-serif;
+    font-size: 20px;
+    color: $tc-grey;
+    text-transform: uppercase;
+    border-bottom: 2px solid $tc-lgrey;
+    padding: 28px 0;
+}
+
+h3 {
+    font-family: 'Conv_Montserrat-Regular', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}

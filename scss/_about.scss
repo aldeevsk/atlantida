@@ -1,0 +1,33 @@
+#about {
+    text-align: center;
+    color: $tc-dgrey;
+    h2 {
+        border-bottom: 2px solid $tc-grey;
+    }
+    p {
+        text-align: left;
+    }
+    .counts {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .count {
+        width: 25%;
+        span {
+            font-family: 'Conv_Montserrat-Regular', sans-serif;
+            font-size: 45px;
+        }
+    }
+    button {
+        border: 2px solid $tc-dgrey;
+        color: $tc-dgrey;
+        padding: 5px 15px;
+        &:hover {
+            border-color: $tc-white;
+            color: $tc-white;
+            background: $tc-dgrey;
+        }
+    }
+
+}
