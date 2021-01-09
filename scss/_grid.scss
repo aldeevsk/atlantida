@@ -14,18 +14,7 @@ main {
 
 
 
-button {
-    padding: 15px 25px;
-    background: inherit;
-    border: 2px solid $tc-lgrey;
-    color: $tc-lgrey;
-    cursor: pointer;
-    &:hover {
-    border-color: $tc-dgrey;
-    color: $tc-dgrey;
-    background: $tc-white;
-    }
-}
+
 
 section {
     

@@ -10,4 +10,15 @@
         margin: 28px 0;
         padding: 28px 0;
     }
+    button {
+        padding: 15px 25px;
+        background: inherit;
+        border: 2px solid $tc-lgrey;
+        color: $tc-lgrey;
+        &:hover {
+        border-color: $tc-dgrey;
+        color: $tc-dgrey;
+        background: $tc-white;
+        }
+    }
 }

@@ -24,20 +24,6 @@ main {
   width: 100%;
 }
 
-button {
-  padding: 15px 25px;
-  background: inherit;
-  border: 2px solid #d8d8d8;
-  color: #d8d8d8;
-  cursor: pointer;
-}
-
-button:hover {
-  border-color: #3e3d3d;
-  color: #3e3d3d;
-  background: #fff;
-}
-
 section {
   width: 100%;
   display: -webkit-box;
@@ -165,6 +151,19 @@ header ul, footer ul {
   padding: 28px 0;
 }
 
+#home button {
+  padding: 15px 25px;
+  background: inherit;
+  border: 2px solid #d8d8d8;
+  color: #d8d8d8;
+}
+
+#home button:hover {
+  border-color: #3e3d3d;
+  color: #3e3d3d;
+  background: #fff;
+}
+
 #about {
   color: #3e3d3d;
   padding: 70px 0;
@@ -208,18 +207,6 @@ header ul, footer ul {
   font-size: 45px;
 }
 
-#about button {
-  border: 2px solid #3e3d3d;
-  color: #3e3d3d;
-  padding: 5px 15px;
-}
-
-#about button:hover {
-  border-color: #fff;
-  color: #fff;
-  background: #3e3d3d;
-}
-
 #services {
   background: url("../img/bg/services.jpg") center center no-repeat;
   padding: 70px 0;
@@ -233,16 +220,6 @@ header ul, footer ul {
   margin-top: 40px;
   margin-bottom: 75px;
   width: 1020px;
-}
-
-#services .cards {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 #services .card {
@@ -268,6 +245,19 @@ header ul, footer ul {
 
 #history .left-col, #history .right-col {
   width: 48%;
+}
+
+#team {
+  background: url("../img/bg/team.jpg") no-repeat center;
+  background-size: 100%;
+}
+
+#team article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body {
@@ -296,7 +286,7 @@ h2 {
   font-size: 20px;
   color: #616060;
   text-transform: uppercase;
-  border-bottom: 2px solid #d8d8d8;
+  border-bottom: 2px solid #616060;
   padding: 28px 0;
 }
 
@@ -308,5 +298,29 @@ h3 {
   font-family: 'Conv_Montserrat-Regular', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
+}
+
+.cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+button {
+  border: 2px solid #3e3d3d;
+  color: #3e3d3d;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #d8d8d8;
+  color: #d8d8d8;
+  background: #3e3d3d;
 }
 /*# sourceMappingURL=style.css.map */
