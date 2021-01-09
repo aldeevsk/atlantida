@@ -152,7 +152,7 @@ header ul, footer ul {
 
 #home {
   margin-top: 73px;
-  background: url("./img/bg/home.jpg") no-repeat center bottom;
+  background: url("../img/bg/home.jpg") no-repeat center bottom;
   height: 698px;
   color: #d8d8d8;
 }
@@ -209,7 +209,7 @@ header ul, footer ul {
 }
 
 #services {
-  background: url("./img/bg/services.jpg") center center no-repeat;
+  background: url("../img/bg/services.jpg") center center no-repeat;
 }
 
 #services .cards {
