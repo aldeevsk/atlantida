@@ -1,5 +1,14 @@
 #services {
     background: url('../img/bg/services.jpg') center center no-repeat;
+    padding: 70px 0;
+    h2 {
+        border-color: $tc-grey;
+    }
+    p {
+        margin-top: 40px;
+        margin-bottom: 75px;
+        width: 1020px;
+    }
     .cards {
         width: 100%;
         display: flex;
@@ -7,7 +16,12 @@
     }
     .card {
         width: 24.5%;
-        height: 400px;
-        background: $bc-white;
+        border: 2px solid $tc-grey;
+        text-align: center;
+        padding: 55px 35px;
+        p {
+            width: auto;
+            margin: 0;
+        }
     }
 }

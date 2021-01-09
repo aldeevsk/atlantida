@@ -5,12 +5,20 @@
 @import 'home';
 @import 'about';
 @import 'services';
+@import 'history';
 
 body {
     font-family: 'Conv_CrimsonText-Regular', serif;
     font-size: 14px;
     color: $tc-grey;
     background: $bc-grey;
+}
+
+article {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 h1 {
@@ -27,6 +35,10 @@ h2 {
     text-transform: uppercase;
     border-bottom: 2px solid $tc-lgrey;
     padding: 28px 0;
+}
+
+.subtitle {
+    text-align: center;
 }
 
 h3 {
