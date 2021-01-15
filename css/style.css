@@ -248,7 +248,7 @@ header ul, footer ul {
   width: 48%;
 }
 
-.card {
+#history .card {
   position: relative;
   width: 100%;
   height: 300px;
@@ -259,26 +259,26 @@ header ul, footer ul {
   transition: 0.8s;
 }
 
-.card:hover {
+#history .card:hover {
   color: #fff;
   height: 600px;
 }
 
-.card:hover svg {
+#history .card:hover svg {
   fill: #3e3d3d;
   -webkit-transform: scaleY(1.4);
           transform: scaleY(1.4);
   stroke: aqua;
 }
 
-.card .content {
+#history .card .content {
   z-index: 2;
   position: relative;
   overflow: hidden;
   height: 65%;
 }
 
-.card svg {
+#history .card svg {
   position: absolute;
   top: 0;
   left: 0;
